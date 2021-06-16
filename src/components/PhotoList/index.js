@@ -110,7 +110,7 @@ function PhotoList({ category }) {
                     src={require(`../../assets/small/${category}/${i}.jpg`)}
                     alt={image.name}
                     className="img-thumbnail mx-1"
-                    ket={image.name}
+                    key={image.name}
                    />
                 ))}
             </div>
